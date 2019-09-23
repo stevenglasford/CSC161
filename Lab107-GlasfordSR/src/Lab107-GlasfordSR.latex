@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[margin = .4in]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
+
+\usepackage{color}
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+\usepackage{listings}
+\lstset{language=Java,
+  showspaces=false,
+  showtabs=false,
+  breaklines=false,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  commentstyle=\color{pgreen},
+  keywordstyle=\color{pblue},
+  stringstyle=\color{pred},
+  basicstyle=\ttfamily,
+  moredelim=[il][\textcolor{pgrey}]{$$},
+  moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%}
+}
+
+\title{Lab107}
+\author{Steven Glasford}
+\date{3-12-2019}
+
+\begin{document}
+
+\maketitle
+
+\lstset{language=Java}          % Set your language (you can change 
+%the language for each code-block optionally)
+
+\section{Client.java}
+%\lstinputlisting[language=Java, firstline=37, 
+%lastline=45]{Recursion.java}
+\lstinputlisting[language=Java]{Client.java}
+
+\pagebreak
+
+\section{AbstractBinaryTree.java}
+%\lstinputlisting[language=Python, firstline=37, 
+%lastline=45]{Client.java}
+\lstinputlisting[language=Java]{AbstractBinaryTree.java}
+
+\pagebreak
+\section{AbstractTree.java}
+%\lstinputlisting[language=Python, firstline=37, 
+%lastline=45]{ArrayBag.java}
+\lstinputlisting[language=Java]{AbstractTree.java}
+
+\pagebreak
+\section{LinkedBinaryTree.java}
+\lstinputlisting[language=Java]{LinkedBinaryTree.java}
+
+\pagebreak
+\section{BinaryTree.java}
+\lstinputlisting[language=Java]{BinaryTree.java}
+
+\pagebreak
+\section{Tree.java}
+\lstinputlisting[language=Java]{Tree.java}
+
+\pagebreak
+\section{LinkedQueue.java}
+\lstinputlisting[language=Java]{LinkedQueue.java}
+
+\pagebreak
+\section{Queue.java}
+\lstinputlisting[language=Java]{Queue.java}
+
+\pagebreak
+\section{SinglyLinkedList.java}
+\lstinputlisting[language=Java]{SinglyLinkedList.java}
+
+\pagebreak
+\section{Position.java}
+\lstinputlisting[language=Java]{Position.java}
+
+\pagebreak
+\section{output.txt}
+\lstinputlisting[language=Java]{output.txt}
+
+\pagebreak
+\section{treeStructure.txt}
+\lstinputlisting[language=Java]{treeStructure.txt}
+
+\end{document}
+

@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage[margin = .4in]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
+
+\usepackage{color}
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+\usepackage{listings}
+\lstset{language=Java,
+  showspaces=false,
+  showtabs=false,
+  breaklines=false,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  commentstyle=\color{pgreen},
+  keywordstyle=\color{pblue},
+  stringstyle=\color{pred},
+  basicstyle=\ttfamily,
+  moredelim=[il][\textcolor{pgrey}]{$$},
+  moredelim=[is][\textcolor{pgrey}]{\%\%}{\%\%}
+}
+
+\title{Lab106}
+\author{Steven Glasford}
+\date{2-28-2019}
+
+\begin{document}
+
+\maketitle
+
+\lstset{language=Java}          % Set your language (you can change 
+%the language for each code-block optionally)
+
+\section{Client.java}
+%\lstinputlisting[language=Java, firstline=37, 
+%lastline=45]{Recursion.java}
+\lstinputlisting[language=Java]{Client.java}
+
+\pagebreak
+
+\section{Iterable.java}
+%\lstinputlisting[language=Python, firstline=37, 
+%lastline=45]{Client.java}
+\lstinputlisting[language=Java]{Iterable.java}
+
+\pagebreak
+\section{Iterator.java}
+%\lstinputlisting[language=Python, firstline=37, 
+%lastline=45]{ArrayBag.java}
+\lstinputlisting[language=Java]{Iterator.java}
+
+\pagebreak
+\section{LinkedPositionalList.java}
+\lstinputlisting[language=Java]{LinkedPositionalList.java}
+
+\pagebreak
+\section{LuckyNumber.java}
+\lstinputlisting[language=Java]{LuckyNumber.java}
+
+\pagebreak
+\section{LuckyNumberList.java}
+\lstinputlisting[language=Java]{LuckyNumberList.java}
+
+\pagebreak
+\section{Position.java}
+\lstinputlisting[language=Java]{Position.java}
+
+\pagebreak
+\section{PositionalList.java}
+\lstinputlisting[language=Java]{PositionalList.java}
+
+\pagebreak
+\section{output.txt}
+\lstinputlisting[language=Java]{output.txt}
+
+\end{document}
+
